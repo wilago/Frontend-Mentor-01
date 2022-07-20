@@ -25,6 +25,8 @@ body {
 .card {
   background-color: #fff;
   display: flex;
+  border-radius: 20px 0px 0px 20px;
+  
 }
 
 .card-content {
@@ -90,6 +92,7 @@ body {
   .card {
     display: flex;
     flex-direction: column;
+    
   }
 
   .card-content {
