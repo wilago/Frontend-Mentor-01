@@ -1,0 +1,130 @@
+body {
+  position: relative;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  border: 1px solid rgb(231, 230, 230);
+  box-shadow: 0px 5px 15px hsl(229, 6%, 66%);
+  width: 630px;
+  height: 500px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+}
+
+.imgcard {
+  height: 500px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.card {
+  display: flex;
+}
+
+.card-content {
+  padding: 40px 40px 40px 40px;
+}
+
+.textuno {
+}
+
+.textdos {
+  font-family: "Fraunces";
+  padding-top: 15px;
+  font-size: 30px;
+  font-style: bold;
+  font-weight: 700;
+}
+
+.textres {
+  padding-top: 30px;
+}
+.precio {
+  padding: 30px 0px 30px 0px;
+  font-family: "Fraunces";
+  font-size: 30px;
+  font-style: bold;
+  font-weight: 700;
+  color: #69867c;
+  position: relative;
+}
+
+.descuento {
+  font-family: "Montserrat";
+  font-weight: 100, 100;
+  font-size: 12px;
+  color: rgb(166, 165, 167);
+  text-decoration: line-through;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(60%, 0%);
+}
+
+.btncar {
+  background-color: #2b451e;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  width: 14rem;
+}
+
+.btncar:hover {
+  background-color: #69867c;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-content {
+    padding: 20px 30px 30px 30px;
+  }
+
+  .imgcard {
+    margin: 20px 0px 0px 30px;
+    width: 300px;
+    height: 230px;
+    border-radius: 20px 20px 0px 0px;
+
+    background: url(../images/image-product-mobile.jpg) no-repeat;
+  }
+
+  .container {
+    border: 1px solid rgb(231, 230, 230);
+    box-shadow: 0px 5px 15px hsl(229, 6%, 66%);
+    width: 320px;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  .textdos {
+    padding-top: 10px;
+  }
+
+  .textres {
+    padding-top: 10px;
+  }
+
+  .precio {
+    padding: 30px 0px 30px 20px;
+      }
+
+      .btncar {
+        margin:0px 0px 0px 20px;
+        width: 16rem;
+      }
+}
