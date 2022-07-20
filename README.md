@@ -5,7 +5,9 @@
 
 Solution Web
 
-![image](https://user-images.githubusercontent.com/27816405/180042450-5de95ebe-32aa-4e32-9b22-7ae05e5a86c1.png)
+This solition  is achieved with html y css basic
+
+![image](https://user-images.githubusercontent.com/27816405/180043373-3dba8b09-d408-433d-ab9a-f880dba9b2a6.png)
 
 
 Solution movil
